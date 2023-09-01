@@ -1,0 +1,44 @@
+@import url('reset.css');
+@import url('tipografia.css');
+@import url('buttons.css');
+@import url('./components/menu.css');
+@import url('./components/sobre.css');
+@import url('./components/skills-hobbies.css');
+@import url('./components/formacao.css');
+@import url('./components/experiencia.css');
+@import url('./components/contato.css');
+@import url('./components/footer.css');
+
+:root {
+    --cor-body: #F5F5F5;
+    --branco: #FFFFFF;
+    --cinza-escuro: #464646;
+    --azul-claro: #EAF2FD;
+    --azul-escuro: #2A7AE4;
+    --azul-btn-demo: #5595E9;
+    --azul-btn-repos: #D4E4FA;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--cor-body);
+    overflow-x:hidden;
+
+}
+
+#top{   
+    color: var(--azul-btn-demo);
+    font-size: 3rem;
+    position: fixed;
+    cursor: pointer;
+    left: 95%; 
+    top:90%;
+        
+}
+
+@media (max-width:414px){
+    #top{
+        left: 85%;
+        font-size: 2rem;
+    }
+}
