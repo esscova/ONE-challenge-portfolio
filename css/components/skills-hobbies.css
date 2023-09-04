@@ -45,7 +45,42 @@ section.skills-hobbies div ul li p{
     color: var(--cinza-escuro);
 }
 
-@media (max-width: 768px) {     
+@media (max-width: 768px) {   
+    section.skills-hobbies{        
+        width: 100%;
+        gap:2rem;
+        padding:4rem 0;
+    }
+    
+    div.skill{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    div.skill h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    section.skills-hobbies div ul{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
+    section.skills-hobbies div ul li{
+        width:10rem;
+        height: 5rem;
+        padding: 16px;
+        gap: 8px;
+    }
+    section.skills-hobbies div ul li i{
+        width: 24px;
+        height: 37px;
+        font-size: 2rem;
+
+    }
 }
 
 @media (max-width: 414px) {

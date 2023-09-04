@@ -23,22 +23,4 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: var(--cor-body);
     overflow-x:hidden;
-
-}
-
-#top{   
-    color: var(--azul-btn-demo);
-    font-size: 3rem;
-    position: fixed;
-    cursor: pointer;
-    left: 95%; 
-    top:90%;
-        
-}
-
-@media (max-width:414px){
-    #top{
-        left: 85%;
-        font-size: 2rem;
-    }
 }

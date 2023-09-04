@@ -41,7 +41,7 @@ a {
     padding-bottom: 1rem;
 }
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
     .sobre {
         padding: 1rem 5%;
     }
