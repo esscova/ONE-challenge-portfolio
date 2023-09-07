@@ -85,7 +85,7 @@ textarea {
 
 @media (max-width: 768px) {
     .contato {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .contato__formulario h2,

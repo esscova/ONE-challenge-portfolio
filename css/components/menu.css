@@ -29,6 +29,7 @@
 
 @media (max-width: 360px) {
     .menu {
-        padding: 1rem 0px 1rem 0px;
+        padding: 0rem 0px 1rem 0px;
+        text-align: center;
     }
 }

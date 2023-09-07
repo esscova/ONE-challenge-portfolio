@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded",     function() {
   const btnTopo = document.getElementById("top");
-  
+
   btnTopo.addEventListener("click", function() {
     window.scrollTo({
       top: 0,
